@@ -113,6 +113,15 @@ body {
     border-top: 4px solid var(--Blue);
 }
 
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
+
 @media (width<=767px) {
     .title-box h3 {
         font-size: 21px;
@@ -122,17 +131,8 @@ body {
         font-size: 21px;
     }
 
-    .boxes-container {
+    .cards-container {
         flex-direction: column;
     }
 
-}
-
-.attribution {
-    font-size: 11px;
-    text-align: center;
-}
-
-.attribution a {
-    color: hsl(228, 45%, 44%);
 }
