@@ -116,7 +116,7 @@ body {
  @media (width <= 767px) {
     body {
         padding: 30px 0 0 0;
-        justify-content: none;
+        justify-content: initial;
     }
 
     .title-box h3 {
